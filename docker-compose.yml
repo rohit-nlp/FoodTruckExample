@@ -10,7 +10,7 @@ services:
     volumes:
       - esdata1:/usr/share/elasticsearch/data
   web:
-    image: prakhar1989/foodtrucks-web
+    image: rohit1308k/foodtrucks-web
     command: python app.py
     depends_on:
       - es
